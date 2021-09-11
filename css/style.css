@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind:wght@300&family=Parisienne&display=swap');
+@keyframes openn {
+  0% {
+    border-radius: 50%;
+    width: 10px;
+  }
+  20% {
+    border-radius: 40%;
+    width: 100px;
+  }
+
+  40% {
+   border-radius: 30%;
+   width: 300px;
+  }
+  70% {
+    border-radius: 20%;
+    width: 800px;
+  }
+  100% {
+   border-radius: none;
+   width: 100vw;
+  }
+}
+body {
+  font-family: 'Great Vibes', cursive;
+}
+
+li {
+  font-family: 'Hind', sans-serif;
+}
+.offcanvas-end {
+  width: 100vw;
+  transform:translateX(100%);
+  transition: 1s;
+  animation-name: openn !important;
+  animation-duration: 2s;
+  background-color: #000;
+  opacity: .85;
+  color: #fff;
+ }
+
+ .Container {
+  height: 100vh;
+  position: absolute;
+ }
+
+ .carouselInner {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+ }
+
+ .foto {
+   background-color: red;
+   width: 259px;
+   margin: 10px;
+   height: 300px;
+   position: relative;
+   padding: 0;
+ }
+
+ .foto .info {  
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: 1000000000000000000;
+   transition: .8s;
+   font-size: 0px;
+ }
+
+ .foto .info:hover {
+    opacity: .85;
+    background-color: #000;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+ }
+ .foto:hover {
+  transform: translateY(-10px);
+  
+ }
+ .foto img {
+   width: 100%;
+   height: 100%;
+   
+ }
+ .center {
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: space-around;
+ }
+
+ .componentFilter {
+   margin-top: 100px;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+ }
+ .componentFilter ul  {
+   display: flex;
+   list-style: none;
+ }
+
+ .componentFilter ul li {
+   margin-left: 20px;
+ }
+
+ .perfil-info {
+  background-color: black;
+  height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+
+ .perfil-info  .imagemBorder img {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+ 
+ }
+
+ .perfil-info  .imagemBorder {
+   border: 4px solid #fff;
+   padding: 4px;
+   margin-top: 70px;
+   border-radius: 50%;
+ }
+
+ .infoPerfil {
+   padding-top: 20px;
+   
+   width: 100%;
+   margin-left: 10px;
+ }
+
+
+ .redeSocias {
+   align-content: center;
+   justify-content: center;
+ }
+
+ div.offcanvas-body {
+    margin-top: 100px;
+ }
+ div.offcanvas-body ul {
+   margin-bottom: 50px;
+ }
+
+ .marginTop {
+   margin-top: 57px;
+ }
+ 
+.corouselNoticias {
+  position: relative;
+  width: 70vw;
+  overflow: hidden;
+  height: 40vh;
+}
+
+.conteudoCem {
+  height: 100%;
+  
+}
