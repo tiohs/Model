@@ -6,3 +6,71 @@
 .carousel-inner {
   border-radius: 14px;
 } 
+
+.card-styled {
+  height: 160px;
+  border: 0;
+}
+
+.moreNoticia .hearder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreNoticia .hearder ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.moreNoticia .hearder ul li {
+  margin-left: 10px;
+  border-bottom: 1px solid #ccc;
+  height: 30px;
+  padding: 5px;
+  font-weight: normal;
+}
+
+.moreNoticia .hearder ul li.active {
+  border-bottom: 1px solid #000;
+  
+}
+
+.moreNoticia .hearder ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+}
+
+.moreNoticia .moreInfo .card img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+.moreNoticia .moreInfo .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+
+}
+
+.moreNoticia .moreInfo .card .info span {
+  color: #6c757d;
+  font-weight: normal;
+}
+.moreNoticia .moreInfo .card .info h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.moreNoticia .moreInfo .card .info p {
+  font-size: 1.5rem;
+}
+
+.moreNoticia .moreInfo .card .info p:hover {
+  font-size: 1.5rem;
+ 
+  cursor: pointer;
+}
