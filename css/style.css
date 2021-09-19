@@ -255,6 +255,26 @@ div.perfil .row .col-8 .carousel .carousel-inner .carousel-item img {
 /* PERFIL END */
 
 
+/* INSCRIÇÃO START */
+
+div.increver .row .col-6 form {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+div.increver .row .col-6 form button {
+  margin: 10px;
+
+  
+  background-color: #eae8e8;
+  color: #000;
+  border: 1px solid #000 !important;
+ 
+}
+/* INSCRIÇÃO END */
+
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
