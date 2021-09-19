@@ -68,6 +68,11 @@ button {
 .navbar .container-fluid .offcanvas .offcanvas-body ul li {
   margin-top: 5px;
   font-size : 2.8rem;
+  font-weight: 100;
+}
+.navbar .container-fluid .offcanvas .offcanvas-body ul li.nav-item a:hover {
+  color: #fff !important;
+  font-weight: 500 !important;
 }
 .navbar .container-fluid .offcanvas .offcanvas-body img {
   width: 50px;
