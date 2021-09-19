@@ -171,5 +171,38 @@ div.femenino .componentFilter ul li.ative {
   border-bottom: 1px solid #000;
 }
 
-div.femenino
+div.femenino .row .col {
+  margin-bottom: 10px;
+ 
+  position: relative;
+  padding: 5px;
+}
+div.femenino .row .col .info {  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000000000000000000;
+  transition: .8s;
+  font-size: 0px;
+}
+
+div.femenino .row .col .info:hover {
+  opacity: .75;
+    background-color: #000;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  div.femenino .row .col:hover {
+  transform: translateY(-10px);
+  
+ }
+
 /* SECTION FEMENINO END */
