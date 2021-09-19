@@ -46,6 +46,10 @@ button {
   overflow: hidden !important;
 }
 
+.container {
+  margin-top: 100px;
+}
+
 /* NAV START ALL */
 
 .navbar {
@@ -140,7 +144,32 @@ button {
 
 .home .row .col-6 .bg h1{
   font-size: 30rem;
-
 }
+
 /* Home end  */
 
+
+/* SECTION FEMENINO START */
+div.femenino .componentFilter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+div.femenino .componentFilter ul {
+  display: flex; 
+}
+
+div.femenino .componentFilter ul li {
+  padding: 15px;
+  margin: 5px;
+  
+}
+
+div.femenino .componentFilter ul li.ative {
+  border-bottom: 1px solid #000;
+}
+
+div.femenino
+/* SECTION FEMENINO END */
