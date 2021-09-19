@@ -79,8 +79,28 @@ button {
 /* Home start */
 
 .home {
-  border: 2px solid red ;
+  
   height: 100vh;
 }
 
+.home .carousel  {
+  height: 100vh;
+}
+.home .carousel .carouselInner {
+  height: 100%;
+  position: relative;
+}
+
+.home .carousel .carouselInner .carousel-item  {
+ 
+  position: absolute;
+  height: 100%;
+}
+.home .carousel .carouselInner .carousel-item img {
+  height: 100%;
+  width: 100%;
+}
+
+
 /* Home end  */
+
