@@ -46,6 +46,10 @@ button {
   overflow: hidden !important;
 }
 
+input, button {
+  outline: 0 !important;
+}
+
 .container {
   margin-top: 100px;
 }
@@ -138,8 +142,6 @@ button {
 
 .home .row .col-6 .bg1 h1{
   font-size: 30rem;
-  
-
 }
 
 .home .row .col-6 .bg h1{
